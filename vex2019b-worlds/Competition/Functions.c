@@ -408,6 +408,7 @@ void oneCage()
 
 void twentyRight()
 {
+	//twenty right
 	mobileGoalDown(900);
 	wait1Msec(50);
 	letSlack(0);
@@ -420,24 +421,30 @@ void twentyRight()
 	driveTime(maxSpeed, 1000);
 	mobileGoalDown(1000);
 	driveStraight(-22.0, 1500);
-	//turn(90, 0, 1100);
-	//driveStraight(20, 800);
-	//turn(95, 0, 1100);
-	//mobileGoalDown(400);
-	//driveStraight(30, 1000);
-	//mobileGoalUp(1000);
-	//turn(184, 1, 1250);
-	//driveStraight(33, 1300);
-	//mobileGoalDown(900);
-	//driveStraight(-20, 800);
-	//turn(184, 0, 1250);
-	//mobileGoalDown(300);
-	//driveStraight(78, 2500);
-	//mobileGoalUp(1000);
-	//turn(20, 0, 500);
-	//driveStraight(60, 1600);
-	//mobileGoalDown(1000);
-	//driveStraight(-20, 800);
+
+	//extra skills stuff
+	turn(90, 0, 1100);
+	mobileGoalUp(950);
+	driveStraight(23, 1100);
+	turn(92, 0, 1100);
+	mobileGoalDown(900);
+	driveStraight(30, 1000);
+	mobileGoalUp(1000);
+	turn(184, 1, 1250);
+	driveStraight(38, 1500);
+	mobileGoalDown(800);
+	driveStraight(-20, 800);
+
+	turn(184, 0, 1250);
+	mobileGoalUp(950);
+	mobileGoalDown(900);
+	letSlack(0);
+	driveStraight(78, 2500);
+	mobileGoalUp(1000);
+	turn(23, 0, 600);
+	driveStraight(63, 1600);
+	mobileGoalDown(1000);
+	driveStraight(-20, 800);
 }
 
 void twentyLeft()

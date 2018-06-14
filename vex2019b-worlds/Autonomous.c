@@ -17,11 +17,10 @@
 
 int maxSpeed = 127;
 
-
 //PID CONSTANTS
 float kP = 0.1;
 float kI = 0.00001;//0.00008;//0.0000008;
-float kD = 0;//0.3;
+float kD = 0;0.3;
 float kC = 0.5;//6.5;
 
 float kP_turn = 0.7;
